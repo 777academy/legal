@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eliminación de Datos — Seven 7rees</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #0a0a0a;
+      color: #e0e0e0;
+      line-height: 1.7;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+    h1 {
+      font-size: 28px;
+      font-weight: 800;
+      color: #FFD700;
+      margin-bottom: 8px;
+    }
+    .subtitle {
+      color: #666;
+      font-size: 13px;
+      margin-bottom: 40px;
+    }
+    h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: #fff;
+      margin: 32px 0 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    p {
+      color: #aaa;
+      font-size: 15px;
+      margin-bottom: 12px;
+    }
+    ul {
+      color: #aaa;
+      font-size: 15px;
+      padding-left: 20px;
+      margin-bottom: 12px;
+    }
+    li { margin-bottom: 6px; }
+    a { color: #FFD700; text-decoration: none; }
+    .steps {
+      counter-reset: steps;
+      list-style: none;
+      padding-left: 0;
+    }
+    .steps li {
+      counter-increment: steps;
+      display: flex;
+      gap: 16px;
+      margin-bottom: 20px;
+      align-items: flex-start;
+    }
+    .steps li::before {
+      content: counter(steps);
+      background: #FFD700;
+      color: #000;
+      font-weight: 800;
+      font-size: 13px;
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+    .highlight-box {
+      background: #111;
+      border: 1px solid #222;
+      border-left: 3px solid #FFD700;
+      padding: 16px 20px;
+      border-radius: 4px;
+      margin: 24px 0;
+    }
+    .highlight-box p {
+      margin: 0;
+      color: #ccc;
+    }
+    .divider {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      margin: 32px 0;
+    }
+    .footer {
+      color: #444;
+      font-size: 12px;
+      margin-top: 48px;
+    }
+    .email-btn {
+      display: inline-block;
+      background: #FFD700;
+      color: #000;
+      font-weight: 700;
+      padding: 12px 24px;
+      border-radius: 6px;
+      text-decoration: none;
+      margin-top: 8px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Eliminación de Datos de Usuario</h1>
+    <p class="subtitle">Seven 7rees — Última actualización: marzo 2026</p>
+
+    <p>En Seven 7rees respetamos tu privacidad y tu derecho a controlar tus datos personales. Si querés que eliminemos tu información de nuestros sistemas, seguí los pasos a continuación.</p>
+
+    <hr class="divider">
+
+    <h2>¿Qué datos podemos eliminar?</h2>
+    <ul>
+      <li>Nombre y dirección de correo electrónico</li>
+      <li>Historial de compras y transacciones</li>
+      <li>Preferencias y configuraciones de cuenta</li>
+      <li>Datos de interacción recopilados a través del Pixel de Meta</li>
+      <li>Cualquier otro dato personal asociado a tu cuenta</li>
+    </ul>
+
+    <h2>Cómo solicitar la eliminación</h2>
+
+    <ul class="steps">
+      <li>
+        <div>
+          <strong style="color:#fff">Enviá un email a nuestra dirección de contacto</strong>
+          <p>Escribinos desde el correo asociado a tu cuenta o compra.</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <strong style="color:#fff">Incluí el asunto: "Solicitud de eliminación de datos"</strong>
+          <p>Esto nos ayuda a procesar tu solicitud más rápido.</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <strong style="color:#fff">En el cuerpo del mensaje, indicá:</strong>
+          <p>Tu nombre completo, el email con el que te registraste o compraste, y una breve descripción de qué datos querés que eliminemos.</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <strong style="color:#fff">Recibís confirmación en hasta 72 horas</strong>
+          <p>Te enviamos un email confirmando la recepción de tu solicitud.</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <strong style="color:#fff">Eliminación completada en 30 días</strong>
+          <p>Procesamos la eliminación y te notificamos cuando esté lista. Algunos datos pueden retenerse por obligaciones legales o contables.</p>
+        </div>
+      </li>
+    </ul>
+
+    <div class="highlight-box">
+      <p><strong style="color:#FFD700">Nota:</strong> La eliminación de datos es irreversible. Si realizaste compras, conservamos registros mínimos requeridos por ley (comprobantes fiscales) durante el período legal correspondiente.</p>
+    </div>
+
+    <h2>Contacto directo</h2>
+    <p>Enviá tu solicitud de eliminación de datos a:</p>
+    <a href="mailto:contacto@seven7rees.com?subject=Solicitud%20de%20eliminación%20de%20datos" class="email-btn">
+      contacto@seven7rees.com
+    </a>
+
+    <hr class="divider">
+
+    <h2>Datos de Meta (Facebook Login)</h2>
+    <p>Si usaste Facebook Login con nuestra app, también podés revocar permisos directamente desde Meta:</p>
+    <ul>
+      <li>Ir a <a href="https://www.facebook.com/settings?tab=applications" target="_blank">Configuración de Facebook → Apps y sitios web</a></li>
+      <li>Buscar "Seven 7rees" en la lista</li>
+      <li>Click en <strong>Eliminar</strong></li>
+    </ul>
+    <p>Esto revoca el acceso de nuestra app a tu cuenta de Facebook. Para eliminar los datos que ya recopilamos, igualmente enviá el email indicado arriba.</p>
+
+    <hr class="divider">
+    <p class="footer">© 2026 Seven 7rees. Todos los derechos reservados.</p>
+  </div>
+</body>
+</html>
